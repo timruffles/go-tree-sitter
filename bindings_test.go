@@ -700,6 +700,6 @@ func TestManualFinalize(t *testing.T) {
 	qc.Close()
 	q.Close()
 
-	// run GC to nothing panics when finalizers (should) have run
+	// run GC to check nothing panics when finalizers (should) have run
 	runtime.GC()
 }
