@@ -680,7 +680,7 @@ func BenchmarkParseInput(b *testing.B) {
 	}
 }
 
-func TestManualFinalize(t *testing.T) {
+func TestManualClose(t *testing.T) {
 	js := "1 + 2"
 
 	parser := NewParser()
